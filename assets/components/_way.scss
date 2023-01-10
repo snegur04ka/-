@@ -1,0 +1,18 @@
+.way {
+    margin-top: 64px;
+    &__content {
+        display: flex;
+        @include font(400, 16px, #424242);
+        font-family: 'Montserrat';
+    }
+    &__content img {
+        margin: 0 8px;
+    }
+    &__content a {
+        color: #424242;
+        border-bottom: 1px solid none;
+    }
+    &__content a:hover {
+        border-bottom: 1px solid  #424242;
+    }
+}

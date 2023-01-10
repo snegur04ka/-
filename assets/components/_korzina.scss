@@ -1,0 +1,147 @@
+.korzina {
+    font-family: 'Montserrat';
+    &__content {
+        margin-top: 24px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    &__titlee {
+        @include flex(space-between, center, wrap);
+        max-width: 66.3%;
+        margin-top: 64px
+    }
+    &__left {
+        width: 66.3%;
+    }
+    &__delete {
+        @include font(400, 16px, #BDBDBD);
+        cursor: pointer;
+        margin-top: 7px;
+        border-bottom: 1px solid white;
+    }
+    &__delete:hover {
+        border-bottom: 1px solid #BDBDBD;
+    }
+    &__title {
+        @include font(600, 28px, #424242);
+    }
+    // &__line {
+    //     margin: 24px 0;
+    //     width: 66.3%;
+    // }
+    &__itemColvo {
+        @include font(400, 14px, #BDBDBD);
+        width: 80px;
+        height: 38px;
+        border: 1px solid #BDBDBD;
+        border-radius: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__itemColvo span {
+        margin: 0 13px;
+    }
+    &__item {
+        @include flex(space-between, center, wrap);
+        // width: 66.3%;
+        border-top: 1px solid #EFEFEF;
+        padding: 24px 0;
+    }
+    &__itemPrice {
+        @include font(600, 24px, #424242);
+    }
+    &__itemTitle {
+        @include font(600, 18px, #424242);
+    }
+    &__itemRight {
+        width: 58.4%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__right {
+        width: 525px; //32.53% or 527px
+        height: 344px;
+        margin-left: 20px;
+        background: #FAF9F9;
+        border-radius: 20px;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin: 40px 40px 9px 40px;
+    }
+    &__midle {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin: 0 40px 32px 40px;
+    }
+    &__bottom {
+        margin: 0 40px 0 40px;
+        display: flex;
+        justify-content: space-between;
+        @include font(400, 16px, #424242);
+    }
+    &__cl {
+        @include font(600, 18px, #424242);
+    }
+    &__lc {
+        @include font(600, 24px, #424242);
+    }
+    &__bottomL span {
+        font-weight: 600;
+        font-size: 24px;
+        background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        // text-fill-color: transparent;
+        margin-top: 8px;
+
+    }
+    &__bottomR span {
+        @include font(500, 52px, #424242);
+        margin-bottom: 25px;
+    }
+    &__bottomR {text-align: right;
+    margin-bottom: 25px;}
+    &__btn {
+        cursor: pointer;
+        margin: 0 40px 48px 40px;
+        width: 84.25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        @include font(600, 16px, white);
+        font-family: 'Spectral SC';
+        background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+        border-radius: 49px;
+        padding: 13px 0;
+        border: 1px solid #BF9191;
+    }
+    // &__btn a{
+    //     color: white;
+    // }
+    // &__btn a:active{
+    //     color: #BF9191;
+    // }
+    &__btn:hover {
+        background: linear-gradient(102.48deg, #7B4646 -29.03%, #BF9191 97.75%);
+    }
+    &__btn:active {
+        border: 1px solid #BF9191;
+        color: #BF9191;
+        background: white;
+    }
+    &__prodd {
+        display: flex;
+        margin-bottom: 97px;
+    }
+}

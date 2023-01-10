@@ -1,0 +1,63 @@
+.catalog {
+    margin-bottom: 128px;
+    &__bottom {
+        @include flex(space-between, center, wrap)
+    }
+    &__title {
+        @include font(600, 28px, #424242);
+        font-family: 'Spectral SC';
+        text-transform: uppercase;
+    }
+    &__top {
+        @include flex(center, center, nowrap);
+        margin-bottom: 64px;
+    }
+    &__item {
+        width: 375px;
+        height: 280px;
+        background: white;
+        margin-bottom: 40px;
+        box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+        border-radius: 20px;
+        position: relative;
+    }
+    &__item:hover {
+        background: linear-gradient(59.75deg, #C5C5A8 -2.61%, #E2E1CF 76.3%, #E2E1CF 76.3%);
+        box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+        .catalog__more {
+            color: white;
+        }
+    }
+    &__title--item {
+        margin: 34.5px 0 0 32px;
+        font-family: 'Spectral SC';
+        @include font(500, 24px, #424242);
+        text-transform: uppercase;
+    }
+    &__description {
+        margin: 4px 0 0 32px;
+        font-family: 'Montserrat';
+        @include font(400, 16px, rgba(94, 92, 90, 0.8));
+    }
+    &__more {
+        font-family: 'Montserrat';
+        @include font(600, 16px, #976464);
+        position: absolute;
+        bottom: 34.5px;
+        left: 32px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    &__img {
+        position: absolute;
+        top: 0;
+    }
+    &__text {
+        font-family: 'Spectral SC';
+        text-transform: uppercase;
+        @include font(300, 245.936px, rgba(94, 92, 90, 0.03));
+        position: absolute;
+        top: -130px;
+        left: -210px;
+    }
+}

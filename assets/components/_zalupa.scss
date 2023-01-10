@@ -1,0 +1,152 @@
+// .container{
+//         max-width: 1620px;
+//         margin: 0 auto;
+// }
+.zal{
+    padding-left: 26px;
+    padding-top: 58px;
+
+    width: 560px;
+    margin: 0;
+}
+.col{
+    float: right;
+    position: absolute;
+    left: 140px;
+    
+
+}
+.zal-r{
+   float: right; 
+   position: absolute;
+   width: 520px;
+   height: 34px;
+   left: 969px;
+   top: 70px;
+}
+.zal-r p{
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 24px;
+}
+.zal-r h1{
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.bot{
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.stat{
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;    
+    border-bottom: 1px #BDBDBD solid;
+    margin-bottom: 50px;
+    display: flex;
+    margin: 0;
+}
+.end{
+    width: 600px;
+    display: flex; 
+    margin-top: 39px;
+}
+.end p{
+    font-family: 'Montserrat';
+    @include font(400, 14px, #BDBDBD);
+    text-align: center;
+    margin-left: 39px;
+    margin-top: 0;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    border: 1px #BDBDBD solid;
+    border-radius: 46px;
+    width: 80px ;
+    // height: 27px;
+}
+.end span {
+    @include font(400, 14px, #BDBDBD);
+    margin: 0 13px;
+}
+
+.bag{
+    width: 286px;
+    text-transform: uppercase;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 46px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Spectral SC';
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    margin-left: 39px;
+
+}
+   
+.bag:hover{
+    background: linear-gradient(102.48deg, #7B4646 -29.03%, #BF9191 97.75%);
+    cursor: pointer;
+}   
+.bag:active {
+    border: 1px solid #BF9191;
+    color: #BF9191;
+    background: white;
+}
+
+  // АРТЁМ ГЕЙ
+
+
+.heroo {
+    position: absolute;
+    width: 117px;
+    height: 34px;
+    left: 49px;
+    top: 100px; 
+    
+}
+.heroo h1{
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #424242;
+
+}
+.card{
+    width: 551px;
+    height: 189px;
+    display: flex;
+    margin-top: 31px;
+}
+.jopa{
+    margin-right: 24px;
+}
+.prod{
+    display: flex;
+    margin-right: 24px;
+}
+.hero-end h1{
+    height: 34px;
+    width: 244px;
+    color: #424242;
+    border-radius: nullpx;         
+}

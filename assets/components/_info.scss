@@ -1,0 +1,29 @@
+.info {
+    margin-bottom: 128px;
+    &__bottom {
+        @include flex(space-between, center, wrap)
+    }
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 64px;
+    }
+    &__right {
+        margin-left: 22px;
+    }
+    &__title {
+        @include font(600, 28px, #424242);
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on, 'ornm' on, 'ordn' on, 'zero' on;
+        text-align: center;
+    }
+    &__podtitle {
+        font-family: 'Spectral';
+        text-transform: uppercase;
+        @include font(500, 24px, #424242);
+    }
+    &__description {
+        font-family: 'Montserrat';
+        @include font(400, 16px, #424242);
+    }
+}

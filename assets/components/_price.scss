@@ -1,0 +1,24 @@
+.price {
+    margin-bottom: 9px;
+    &__content {
+        @include flex(flex-end, center, nowrap);
+    }
+    &__btn {
+        width: 80px;
+        height: 38px;
+        border: 1px solid #BDBDBD;
+        border-radius: 46px;
+        font-family: 'Montserrat';
+        @include font(400, 14px, #BDBDBD);
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    &__btn:hover {
+        color: #9f7070;
+        border: 1px solid #976464;
+    }
+    &__btn:active {
+        background: $roza;
+        color: white;
+    }
+}

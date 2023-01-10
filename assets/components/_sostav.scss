@@ -1,0 +1,20 @@
+.sostav {
+    &__content {
+        display: flex;
+    }
+    &__item {
+        @include flex(space-between, center, nowrap);
+        width: 800px;
+        border-top: 1px solid #EFEFEF;
+        padding: 24px 0;
+    }
+    &__itemRight {
+        width: 58.4%;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    &__riggght {
+        margin-left: 128px;
+    }
+}

@@ -1,0 +1,275 @@
+.oformlenie {
+    font-family: 'Montserrat';
+    &__content {
+        display: flex;
+        // flex-wrap: wrap
+        // justify-content: space-between;
+        // margin-top: 34px;
+    }
+    &__titlee {
+        @include font(600, 28px, #424242);
+        // padding-top: 30px;
+        margin-top: 64px;
+        margin-bottom: 32px;
+    }
+    &__title {
+        @include font(600, 28px, #424242);
+        // padding-top: 30px;
+        margin: 30px 0 32px 40px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    &__riggght {
+        margin-left: 128px; margin-top: 64px;
+    }
+    &__right {
+        // width: 800px; 
+        position: relative;
+        height: 560px;
+        // height: 560px;
+        // margin-left: 128px;
+        // margin-top: 64px;
+        background: #FAF9F9;
+        border-radius: 20px;
+    }
+    &__description, &__warning {
+        @include font(400, 12px, #424242);
+    }
+    &__description {
+        margin: 8px 0 0 40px;
+    }
+    &__btnn, &__topp {
+        display: flex;
+    }
+    &__btnn {
+        margin: 15px 26px 40px 40px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__bttn {
+        position: absolute;
+        right: 37px;
+    }
+    &__warning {
+        margin-left: 26px;
+    }
+    &__topp {
+        margin: 0 0 0 40px;
+    }
+    &__topp input {
+        border: 1px solid #BDBDBD;
+        border-radius: 83px;
+        width: 59.5%;
+        // padding-left: 24px;
+        padding: 17px 0 16px 24px;
+        @include font(400, 14px, #BDBDBD);
+        background: #FAF9F9;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin: 26px 35px 9px 40px;
+    }
+    &__midle {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin: 0 35px 9px 40px;
+    }
+    &__bottom {
+        margin: 20px 37px 0 40px;
+        display: flex;
+        justify-content: space-between;
+        @include font(400, 16px, #424242);
+    }
+    &__cl {
+        @include font(600, 18px, #424242);
+    }
+    &__lc {
+        @include font(600, 24px, #424242);
+    }
+    &__bottomL span {
+        font-weight: 600;
+        font-size: 24px;
+        background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        // text-fill-color: transparent;
+        margin-top: 8px;
+
+    }
+    &__topL span {
+        font-weight: 600;
+        font-size: 18px;
+        background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-left: 4px;
+    }
+    &__ttop {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 34px 0 40px
+    }
+    &__ttop .korzina__delete {
+        margin-top: 0
+    }
+    &__bottomR span {
+        @include font(500, 52px, #424242);
+        margin-bottom: 25px;
+    }
+    &__bottomR {
+        text-align: right;
+        margin-bottom: 15px;
+    }
+    &__btn {
+        cursor: pointer;
+        // margin: 15px 24px 40px 40px;
+        // width: 84.25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        @include font(600, 16px, white);
+        font-family: 'Spectral SC';
+        background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+        border-radius: 49px;
+        padding: 13px 45px;
+        border: 1px solid #BF9191;
+    }
+    &__btn:hover {
+        background: linear-gradient(102.48deg, #7B4646 -29.03%, #BF9191 97.75%);
+    }
+    &__btn:active {
+        border: 1px solid #BF9191;
+        color: #BF9191;
+        background: white;
+    }
+    // &__left {
+    //     width: 100%;
+    // }
+    // &__leeft {
+    //     max-width: 692px;
+    // }
+    &__gorod, &__pochta {
+        border: 1px solid #BDBDBD;
+        border-radius: 83px;
+        @include font(400, 14px, #BDBDBD);
+        padding: 17px 0 16px 24px;
+        width: 75.14%;
+        margin-bottom: 24px;
+    }
+    &__udki {
+        @include flex(space-between, center, wrap);
+        margin-bottom: 24px;
+    }
+    &__one, &__two, &__three, &__vour, &__dopcomm, &__input, &__tel, &__mail {
+        border: 1px solid #BDBDBD;
+        border-radius: 83px;
+        @include font(400, 14px, #BDBDBD);
+        padding: 17px 0 16px 24px;
+    }
+    &__one {
+        width: 254px;
+        // color: #BDBDBD;
+    }
+    &__two, &__three, &__vour {
+        width: 120px;
+        // margin-left: 16px;
+        // color: #BDBDBD;
+    }
+    &__dopcomm {
+        width: 100%;
+    }
+    &__input {
+        width: 220px;
+    }
+    &__inputs {
+        margin-right: 16px;
+    }
+    &__fio {
+        @include flex(space-between, center, nowrap);
+    }
+    &__tel {
+        margin: 24px 0 0 0;
+    }
+    &__mail {
+        width: 65.9%;
+        margin-top: 27px;
+    }
+    &__gal {
+        border-radius: 6.64286px;
+        border: 1px solid #BDBDBD;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+    }
+    &__gal:hover {
+        .aactiv {
+            display: block;
+        }
+    }
+    &__gal:active {
+        .aactiv {
+            display: none;
+        }
+        .aaactiv {
+            display: block;
+        }
+        border: 1px solid #BF9191;
+    }
+    &__img {
+        display: none;
+    }
+    &__send {
+        margin-top: 24px;
+        margin-bottom: 1px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__teext {
+        margin-left: 16px;
+    }
+    &__krug {
+        border: 1px solid #BDBDBD;
+        border-radius: 100px;
+        width: 31px;
+        height: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__krug:hover {
+        .oformlenie__krugg {
+            border-radius: 100px;
+            width: 21px;
+            height: 21px;
+            background: #BDBDBD;
+        }
+    }
+    &__krug:active {
+        .oformlenie__krugg {
+            border-radius: 100px;
+            width: 21px;
+            height: 21px;
+            background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+        }
+        border: 1px solid #BF9191;
+    }
+    &__oplata {
+        display: flex;
+        align-items: center;
+    }
+    &__descriptionn {
+        @include font(400, 16px, #424242);
+        margin-left: 16px;
+    }
+}

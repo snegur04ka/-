@@ -1,0 +1,112 @@
+.header {
+    &__top {
+        color: white;
+        padding: 13px 0;
+        // height: 45px;
+        @include flex(space-between, center, wrap);
+    }
+    &__logo {
+        // margin: 0 50px 0 48px;
+    }
+    &__top--bg {
+        background: $roza;
+    }
+    &__left, &__center, &__right {
+        display: flex;
+    }
+    &__tel, &__map, &__graph {
+        margin-left: 9.25px;
+        font-family: 'Montserrat'; //шрифта нету
+        @include font(400, 14px, white)
+    }
+    &__bottom {
+        @include flex(space-between, center, wrap);
+        margin-top: 45px;
+        margin-bottom: 79.35px;
+    }
+    &__list {
+        width: 43.27%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: 'Montserrat';
+        @include font(600, 16px, #424242);
+    }
+    &__item {
+        cursor: pointer;
+    }
+    &__search {
+        border: 1px solid #BDBDBD;
+        border-radius: 46px;
+        padding: 10px 51px 11px 18px;
+    }
+    &__input {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 43.15%;
+    }
+    &__input--search {
+        position: relative;
+    }
+    &__search--item {
+        position: absolute;
+        right: 18px;
+        top: 13px;
+    }
+    &__btn {
+        padding: 10px 10px 8px 7px;
+        border: 1px solid #BDBDBD;
+        border-radius: 46px;
+        cursor: pointer;
+        color: #BDBDBD;
+        background: white;
+        font-family: 'Spectral SC';
+    }
+    &__btn a {
+        color: #BDBDBD;
+    }
+
+
+    &__btn--item {
+        padding-left: 8px;
+        padding-right: 7px;
+    }
+    &__btn:hover {
+        .header__btn a {
+            color: #9f7070;
+        }
+        color: #9f7070;
+        border: 1px solid #976464;
+    }
+    &__btn:active {
+        .header__btn a {
+            color: white;
+        }
+        background: $roza;
+        color: white;
+    }
+    &__input--item {
+        position: relative;
+    }
+    &__numbers {
+        &--item {
+            @include font(400, 10px, #5E5C5A);
+            font-family: 'Montserrat';
+        }
+        @include flex(center, center, nowrap);
+        cursor: pointer;
+        border-radius: 10px;
+        width: 17px;
+        height: 17px;
+        background: #D3D3B5;
+        position: absolute;
+        top: -5px;
+        right: 3px;
+    }
+    &__item a {
+        color: #424242;
+    }
+}

@@ -1,0 +1,65 @@
+.pade {
+    margin-top: 64px;
+    margin-bottom: 75px;
+    &__left {
+        margin-right: 82px;
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 390px;
+        height: 100px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 24px;
+        cursor: pointer;
+    }
+    &__btnTitle {
+        font-family: 'Montserrat';
+        @include font(600, 18px, #424242);
+        margin-left: 49px;
+    }
+    &__btn:hover {
+        background: linear-gradient(59.75deg, #C5C5A8 -2.61%, #E2E1CF 76.3%, #E2E1CF 76.3%);
+        box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+        border-radius: 20px;
+    }
+    &__catalogTitle {
+        font-family: 'Spectral SC';
+        @include font(600, 28px, #424242);
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    &__content {
+        display: flex;
+        // flex-wrap: wrap;
+    }
+    &__title {
+        font-family: 'Spectral SC';
+        @include font(600, 28px, #424242);
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    &__description {
+        font-family: 'Montserrat';
+        @include font(400, 18px, #424242);
+        margin-bottom: 48px;
+        line-height: 150%;
+        max-width: 800px;
+    }
+    &__photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 427px; 
+        background: #C4C4C4;
+        border-radius: 20px;
+        margin-bottom: 32px;
+        font-family: 'Montserrat';
+        @include font(400, 18px, black);
+    }
+}

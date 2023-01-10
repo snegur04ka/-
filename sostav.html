@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ХоббиАрт</title>
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body style="background: white;">
+
+    <header>
+        <div class="header__top--bg">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__left">
+                        <img src="./assets/img/header/telefon.svg" alt="./assets/img/header/telefon.svg">
+                        <h3 class="header__tel">
+                            +7 (924) 765 28 20
+                        </h3>
+                    </div>
+                    <div class="header__center">
+                        <img src="./assets/img/header/map.svg" alt="./assets/img/header/map.svg">
+                        <h3 class="header__map">
+                            г. Якутск, ул. Петра Алексеева, д. 6, ТЦ “Олонхо”
+                        </h3>
+                    </div>
+                    <div class="header__right">
+                        <img src="./assets/img/header/graph.svg" alt="./assets/img/header/graph.svg">
+                        <h3 class="header__graph">
+                            Ежедневно с 10:00 до 19:00
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__bottom">
+                <ul class="header__list">
+                    <li class="header__item"><a href="./index.html">Каталог</a></li>
+                    <li class="header__item"><a href="./payanddelivery.html">Оплата и доставка</a></li>
+                    <li class="header__item"><a href="./bonus.html">Бонусная программа</a></li>
+                    <li class="header__item"><a href="./AboutTheCompany.html">О компании</a></li>
+                    <li class="header__item"><a href="#footer">Контакты</a></li>
+                </ul>
+                    <div class="header__logo">
+                        <img src="./assets/img/headerBottom/logo.png" alt="./assets/img/headerBottom/logo.png">
+                    </div>
+                <ul class="header__input">
+                    <li class="header__input--search">
+                        <input type="text" placeholder="Поиск товара" class="header__search">
+                        <img src="./assets/img/headerBottom/search.svg" alt="./assets/img/headerBottom/search.svg" class="header__search--item">
+                    </li>
+                    <li class="header__input--item">
+                        <button class="header__btn">
+                            <img src="./assets/img/headerBottom/chel.svg" alt="./assets/img/headerBottom/chel.svg" class="header__btn--item">
+                            Войти
+                        </button>
+                    </li>
+                    <li class="header__input--item">
+                        <a href="./cabfavor.html">
+                            <button class="header__btn">
+                                <img src="./assets/img/headerBottom/heard.svg" alt="./assets/img/headerBottom/heard.svg" class="header__btn--item">
+                                Избранное
+                            </button>
+                        </a>
+                        <div class="header__numbers">
+                            <p class="header__numbers--item">2</p>
+                        </div>
+                    </li>
+                    <li class="header__input--item">
+                        <a href="./korzina.html">
+                            <button class="header__btn">
+                                <img src="./assets/img/headerBottom/buy.svg" alt="./assets/img/headerBottom/buy.svg" class="header__btn--item">
+                                Корзина
+                            </button>
+                        </a>
+                        <div class="header__numbers">
+                            <p class="header__numbers--item">1</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="way">
+        <div class="container">
+            <div class="way__content">
+                <p class="way__glav"><a href="./index.html">Главная</a></p>
+                <img src="./assets/img/way/strelka.svg" alt="./assets/img/way/strelka.svg">
+                <p class="way__catalog">Корзина</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="oformlenie" style="margin-bottom: 113px;">
+        <div class="container">
+            <div class="sostav__content">
+                <div class="oformlenie__leeft">
+                    <h1 class="oformlenie__titlee">
+                        Способ получения
+                    </h1>
+                    <select class="oformlenie__gorod" name="gorod">
+                        <option value="Город">Город</option>
+                        <option value="Адыгея">Республика Адыгея</option>
+                        <option value="Алтай">Республика Алтай </option>
+                        <option value="Башкортостан">Республика Башкортостан </option>
+                        <option value="Бурятия">Республика Бурятия </option>
+                        <option value="Дагестан">Республика Дагестан </option>
+                        <option value="Ингушетия">Республика Ингушетия </option>
+                        <option value="Кабардино-Балкария">Кабардино-Балкарская Республика</option>
+                        <option value="Калмыкия">Республика Калмыкия </option>
+                        <option value="Карачаево-Черкессия">Карачаево-Черкесская Республика</option>
+                        <option value="Карелия">Республика Карелия </option>
+                        <option value="Коми">Республика Коми </option>
+                        <option value="Марий Эл">Республика Марий Эл </option>
+                        <option value="Мордовия">Республика Мордовия</option>
+                        <option value="Саха (Якутия)">Республика Саха (Якутия) </option>
+                        <option value="Северная Осетия - Алания">Республика Северная Осетия - Алания </option>
+                        <option value="Татарстан">Республика Татарстан</option>
+                        <option value="Тыва">Республика Тыва </option>
+                        <option value="Удмуртская">Удмуртская Республика </option>
+                        <option value="Хакасия">Республика Хакасия </option>
+                        <option value="Чеченская">Чеченская Республика</option>
+                        <option value="Чувашская Республика">Чувашская Республика</option>
+                        <option value="Алтайский край">Алтайский край</option>
+                        <option value="Забайкальский край">Забайкальский край</option>
+                        <option value="Камчатский край">Камчатский край</option>
+                        <option value="Краснодарский край">Краснодарский край</option>
+                        <option value="Красноярский край">Красноярский край</option>
+                        <option value="Пермский край">Пермский край</option>
+                        <option value="Приморский край">Приморский край</option>
+                        <option value="Ставропольский край">Ставропольский край</option>
+                        <option value="Хабаровский край">Хабаровский край</option>
+                        <option value="Амурская область">Амурская область</option>
+                        <option value="Архангельская область">Архангельская область</option>
+                        <option value="Астраханская область">Астраханская область</option>
+                        <option value="Белгородская область">Белгородская область</option>
+                        <option value="Брянская область">Брянская область </option>
+                        <option value="Владимирская область">Владимирская область </option>
+                        <option value="Волгоградская область">Волгоградская область </option>
+                        <option value="Вологодская область">Вологодская область </option>
+                        <option value="Воронежская область">Воронежская область </option>
+                        <option value="Ивановская область">Ивановская область </option>
+                        <option value="Иркутская область">Иркутская область </option>
+                        <option value="Калининградская область">Калининградская область</option>
+                        <option value="Калужская область">Калужская область </option>
+                        <option value="Кемеровская область">Кемеровская область </option>
+                        <option value="Кировская область">Кировская область </option>
+                        <option value="Костромская область">Костромская область </option>
+                        <option value="Курганская область">Курганская область </option>
+                        <option value="Курская область">Курская область </option>
+                        <option value="Ленинградская область">Ленинградская область </option>
+                        <option value="Липецкая область">Липецкая область </option>
+                        <option value="Магаданская область">Магаданская область</option>
+                        <option value="Московская область">Московская область </option>
+                        <option value="Мурманская область">Мурманская область </option>
+                        <option value="Нижегородская область">Нижегородская область </option>
+                        <option value="Новгородская область">Новгородская область </option>
+                        <option value="Новосибирская область">Новосибирская область </option>
+                        <option value="Омская область">Омская область</option>
+                        <option value="Оренбургская область">Оренбургская область </option>
+                        <option value="Орловская область">Орловская область </option>
+                        <option value="Пензенская область">Пензенская область </option>
+                        <option value="Псковская область">Псковская область </option>
+                        <option value="Ростовская область">Ростовская область </option>
+                        <option value="Рязанская область">Рязанская область </option>
+                        <option value="Самарская область">Самарская область </option>
+                        <option value="Саратовская область">Саратовская область </option>
+                        <option value="Сахалинская область">Сахалинская область </option>
+                        <option value="Свердловская область">Свердловская область </option>
+                        <option value="Смоленская область">Смоленская область </option>
+                        <option value="Тамбовская область">Тамбовская область </option>
+                        <option value="Тверская область">Тверская область </option>
+                        <option value="Томская область">Томская область </option>
+                        <option value="Тульская область">Тульская область</option>
+                        <option value="Тюменская область">Тюменская область </option>
+                        <option value="Ульяновская область">Ульяновская область </option>
+                        <option value="Челябинская область">Челябинская область </option>
+                        <option value="Ярославская область">Ярославская область</option>
+                        <option value="Москва">Москва</option>
+                        <option value="Санкт-Петербург">Санкт-Петербург</option>
+                        <option value="Еврейская АО">Еврейская АО</option>
+                        <option value="Ненецкий АО">Ненецкий АО</option>
+                        <option value="Ханты-Мансийский АО">Ханты-Мансийский АО</option>
+                        <option value="Чукотский АО">Чукотский АО</option>
+                        <option value="Ямало-Ненецкий АО">Ямало-Ненецкий АО</option>
+                    </select>
+                    <select class="oformlenie__pochta">
+                        <option>Почта России</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                        <option>Мне было лень подключать JS чтобы делать эту ересть</option>
+                    </select>
+                    <div class="oformlenie__udki">
+                        <div class="oformlenie__inputs">
+                            <input type="text" class="oformlenie__one" placeholder="Улица">
+                        </div>
+                        <div class="oformlenie__inputs">
+                            <input type="text" class="oformlenie__two" placeholder="Дом">
+                        </div>
+                        <div class="oformlenie__inputs">
+                            <input type="text" class="oformlenie__three" placeholder="Квартира">
+                        </div>
+                        <div class="oformlenie__inputs">
+                            <input type="text" class="oformlenie__vour" placeholder="Индекс">
+                        </div>
+                    </div>
+                    <input class="oformlenie__dopcomm" type="text" placeholder="Добавить комментарий">
+                    <h1 class="oformlenie__titlee">
+                        Данные получателя
+                    </h1>
+                    <div class="oformlenie__fio">
+                        <div class="oformlenie__inputs">
+                            <input type="text" placeholder="Фамилия" class="oformlenie__input">
+                        </div>
+                        <div class="oformlenie__inputs">
+                            <input type="text" placeholder="Имя" class="oformlenie__input">
+                        </div>
+                        <div class="oformlenie__inputs">
+                            <input type="text" placeholder="Отчество" class="oformlenie__input">
+                        </div>
+                    </div>
+                    <input class="oformlenie__tel" type="text" placeholder="Номер телефона">
+                    <p class="oformlenie__description" style="margin-left: 0;">
+                        По этому номеру телефона мы с вяжемся с вами для подтверждения заказа
+                    </p>
+                    <input type="text" placeholder="E-mail" class="oformlenie__mail">
+                    <p class="oformlenie__description" style="margin-left: 0;">
+                        На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания
+                    </p>
+                    <div class="oformlenie__send">
+                        <div class="oformlenie__gal">
+                            <img src="./assets/img/oformlenie/Vector (3).svg" alt="./assets/img/oformlenie/Vector (3).svg" class="oformlenie__img aactiv">
+                            <img src="./assets/img/oformlenie/Vector (4).svg" alt="./assets/img/oformlenie/Vector (4).svg" class="oformlenie__img aaactiv">
+                        </div>
+                        <div class="oformlenie__teext">
+                            <p class="oformlenir__text">
+                                Подписаться на рассылку новинок и акций
+                            </p>
+                        </div>
+                    </div>
+                    <h1 class="oformlenie__titlee">
+                        Способ оплаты
+                    </h1>
+                    <div class="oformlenie__oplata" style="margin-bottom: 8px;">
+                        <div class="oformlenie__krug">
+                            <div class="oformlenie__krugg">
+                            </div>
+                        </div>
+                        <div class="oformlenie__descriptionnn">
+                            <p class="oformlenie__descriptionn">
+                                Оплата при получении наличными или картой
+                            </p>
+                        </div>
+                    </div>
+                    <div class="oformlenie__oplata" style="margin-bottom: 188px;">
+                        <div class="oformlenie__krug">
+                            <div class="oformlenie__krugg">
+                            </div>
+                        </div>
+                        <div class="oformlenie__descriptionnn">
+                            <p class="oformlenie__descriptionn">
+                                Оплата банковской картой онлайн
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sostav__riggght">
+                    <h1 class="oformlenie__titlee">
+                        Состав заказа
+                    </h1>
+
+                    <div class="korzina__left">
+                        <div class="sostav__item">
+                            <div class="sostav__itemRight">
+                                <img src="./assets/img/cab/image 12.png" alt="./assets/img/cab/image 12.png">
+                                <h2 class="korzina__itemTitle">
+                                    Шпагат Macrametr 4 мм, 100 нитей
+                                </h2>
+                            </div>
+                            <!-- <p class="korzina__itemPrice">
+                                332 ₽
+                            </p> -->
+                            <div class="korzina__itemColvo">
+                                <p>
+                                    –<span>1</span>+
+                                </p>
+                            </div>
+                            <div class="korzina__itemPrice">
+                                332 ₽
+                            </div>
+                            <img src="./assets/img/korzina/trash empty.svg" alt="./assets/img/korzina/trash empty.svg">
+                        </div>
+                        <div class="sostav__item">
+                            <div class="sostav__itemRight">
+                                <img src="./assets/img/cab/1.3 3.png" alt="./assets/img/cab/1.3 3.png" style="margin-left: 15px;">
+                                <h2 class="korzina__itemTitle">
+                                    Шпагат джутовый Сибшнур 500 м
+                                </h2>
+                            </div>
+                            <!-- <p class="korzina__itemPrice">
+                                385 ₽
+                            </p> -->
+                            <div class="korzina__itemColvo">
+                                <p>
+                                    –<span>1</span>+
+                                </p>
+                            </div>
+                            <div class="korzina__itemPrice">
+                                385 ₽
+                            </div>
+                            <img src="./assets/img/korzina/trash empty.svg" alt="./assets/img/korzina/trash empty.svg">
+                        </div>
+                        <div class="sostav__item">
+                            <div class="sostav__itemRight">
+                                <img src="./assets/img/cab/image 15.png" alt="./assets/img/cab/image 15.png">
+                                <h2 class="korzina__itemTitle">
+                                    Пряжа трикотажная Arachna<br> «Слинг Принт»
+                                </h2>
+                            </div>
+                            <!-- <p class="korzina__itemPrice">
+                                135 ₽
+                            </p> -->
+                            <div class="korzina__itemColvo">
+                                <p>
+                                    –<span>1</span>+
+                                </p>
+                            </div>
+                            <div class="korzina__itemPrice">
+                                135 ₽
+                            </div>
+                            <img src="./assets/img/korzina/trash empty.svg" alt="./assets/img/korzina/trash empty.svg">
+                        </div>
+                    </div>
+
+                    <div class="oformlenie__right">
+                        <h1 class="oformlenie__title"  style="padding-top: 30px;">
+                            Промокод
+                        </h1>
+                        <div class="oformlenie__topp">
+                            <input type="text" placeholder="Промокод">
+                            <button class="oformlenie__btn oformlenie__bttn">
+                                Активировать
+                            </button>
+                        </div>
+                        <p class="oformlenie__description" style="margin-bottom: 23px;">
+                            У вас есть промокод? Активируйте его
+                        </p>
+                        <div class="oformlenie__ttop">
+                            <div class="oformlenie__topL">
+                                Доступно для списания:<span>25 бонусов</span>
+                            </div>
+                            <div>
+                                <p class="korzina__delete">
+                                    Использовать
+                                </p>
+                            </div>
+                        </div>
+                        <div class="oformlenie__top">
+                            <div>
+                                <h2 class="oformlenie__cl">
+                                    Товары, 3 шт
+                                </h2>
+                            </div>
+                            <div>
+                                <p class="oformlenie__lc">
+                                    852 ₽
+                                </p>
+                            </div>
+                        </div>
+                        <div class="oformlenie__midle">
+                            <div>
+                                <h2 class="oformlenie__cl">
+                                    Доставка
+                                </h2>
+                            </div>
+                            <div>
+                                <p class="oformlenie__lc">
+                                    254 ₽
+                                </p>
+                            </div>
+                        </div>
+                        <div class="oformlenie__midle">
+                            <div>
+                                <h2 class="oformlenie__cl">
+                                    Списание бонусов
+                                </h2>
+                            </div>
+                            <div>
+                                <p class="oformlenie__lc">
+                                    -25 ₽
+                                </p>
+                            </div>
+                        </div>
+                        <div class="oformlenie__bottom">
+                            <div class="oformlenie__bottomL">
+                                Вам будет начислено:<br>
+                                <span>
+                                    51 бонус
+                                </span>
+                            </div>
+                            <div class="oformlenie__bottomR">
+                                Итого:<br>
+                                <span>1081 ₽</span>
+                            </div>
+                        </div>
+                        <div class="oformlenie__btnn">
+                            <div class="hoho">
+                                <a href="./modalka.html">
+                                    <button class="oformlenie__btn">
+                                        Оформить заказ
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="hoho">
+                                <p class="oformlenie__warning">
+                                    Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__content">
+                <ul class="footer__list">
+                    <li class="footer__list--logo">
+                        <img src="./assets/img/footer/logo.png" alt="./assets/img/footer/logo.png">
+                    </li>
+                    <li class="footer__list--navigation fdf">
+                        <img src="./assets/img/footer/tel.svg" alt="./assets/img/footer/tel.svg" class="footer__icon">
+                            +7 (924) 765 28 20  
+                    </li>
+                    <li class="footer__list--navigation fdf">
+                        <img src="./assets/img/footer/map.svg" alt="./assets/img/footer/map.svg" class="footer__icon">
+                            г. Якутск, ул. Петра Алексеева, д. 6, ТЦ “Олонхо”
+                    </li>
+                    <li class="footer__list--navigation fdf">
+                        <img src="./assets/img/footer/time.svg" alt="./assets/img/footer/time.svg" class="footer__icon">
+                            Ежедневно с 10:00 до 19:00
+                    </li>
+                    <li class="footer__list--navigation fdf">
+                        <img src="./assets/img/footer/inst.svg" alt="./assets/img/footer/inst.svg" class="footer__icon">
+                            @hobbyart_dv
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list--item">
+                        <a href="./index.html">Каталог</a>
+                    </li>
+                    <li class="footer__list--item">
+                        Акции
+                    </li>
+                    <li class="footer__list--item">
+                        <a href="./index.html">Новинки</a>
+                    </li>
+                    <li class="footer__list--item">
+                        <a href="./index.html">Популярное</a>
+                    </li>
+                    <li class="footer__list--item">
+                        <a href="./garanti.html">Гарантия и возврат</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list--item">
+                        <a href="./payanddelivery.html">Оплата и доставка</a>
+                    </li>
+                    <li class="footer__list--item">
+                        <a href="./bonus.html">Бонусная программа</a>
+                    </li>
+                    <li class="footer__list--item">
+                        <a href="./AboutTheCompany.html">О компании</a>
+                    </li>
+                    <li class="footer__list--item">
+                        Преимущества
+                    </li>
+                    <li class="footer__list--item">
+                        <a href="./cabdata.html">Личный кабинет</a>
+                    </li>
+                </ul>
+                <div class="footer__right">
+                    <h3 class="footer__title">
+                        Узнавайте первым о новинках и новостях
+                    </h3>
+                    <div class="footer__inpu">
+                        <input type="email" class="footer__inp" placeholder="Ваш Email">
+                        <button class="footer__btn">
+                            <a href="./cabSendTwo.html">подписаться</a>
+                        </button>
+                    </div>
+                    <p class="footer__warning">
+                        Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности
+                    </p>
+                    <p class="footer__description">
+                        © 2012-2021 ХОББИ АРТ — официальный <br>
+                        интернет-магазин товаров для хобби. Все права <br>
+                        защищены. Условия использования и политика <br>
+                        конфиденциальности
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/ddr.js"></script>
+    <script src="./js/slider.js"></script>
+    <!-- <script src="./js/catalogMarame.js"></script> -->
+</body>
+</html>
+
+
